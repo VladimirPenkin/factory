@@ -1,0 +1,33 @@
+.data {
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    position: absolute;
+    left: 280px;
+}
+
+.jobSeekers, .myTeam {
+    padding: 5px;
+} 
+
+div.data::first-line {
+    font-weight: bold;
+}
+
+.team {
+    border: 1px solid black;
+    width: 350px;
+    position: absolute;
+    left: 400px;
+    top: 10px;
+    padding: 10px;
+    padding: 10px;
+}
+
+div.team::first-line {
+    font-weight: bold;
+}
